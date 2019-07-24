@@ -18,6 +18,106 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-11 mx-auto text-center my-5">
+          <form class="my-5" id="customer-form">
+            <h3 class="text-capitalize">get a free course</h3>
+            <div class="feedback text-center  text-capitalize">
+              calculating.....
+            </div>
+            <!-- single input -->
+            <div class="input-group my-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-user"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control text-capitalize name"
+                id="name"
+                placeholder="customer name"
+              />
+            </div>
+            <!-- end of single input -->
+            <!-- single input -->
+            <div class="input-group my-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-book"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control text-capitalize course"
+                placeholder="course"
+                id="course"
+              />
+            </div>
+            <!-- end of single input -->
+            <!-- single input -->
+            <div class="input-group my-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"
+                  ><i class="fas fa-user-circle"></i
+                ></span>
+              </div>
+              <input
+                type="text"
+                class="form-control text-capitalize author"
+                placeholder="author"
+                id="author"
+              />
+            </div>
+            <!-- end of single input -->
+            <button
+              type="submit"
+              class="btn btn-block submitBtn text-uppercase mt-4"
+            >
+              submit
+            </button>
+          </form>
+
+          <div class="loading">
+            <img src="img/loading.gif" alt="" />
+          </div>
+          <div class="row customer-list">
+            <!-- single customer -->
+            <div class="col-11 mx-auto col-md-6 col-lg-4 my-3">
+              <div class="card text-left">
+                <img src="img/cust-0.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <!-- customer name -->
+                  <h6 class="text-capitalize ">
+                    <span class="badge badge-warning mr-2">name :</span
+                    ><span id="customer-name"> john anderson</span>
+                  </h6>
+                  <!-- end of customer name -->
+                  <!-- customer name -->
+                  <h6 class="text-capitalize my-3">
+                    <span class="badge badge-success mr-2">course :</span
+                    ><span id="customer-course">
+                      css basics
+                    </span>
+                  </h6>
+                  <!-- end of customer name -->
+                  <!-- customer name -->
+                  <h6 class="text-capitalize">
+                    <span class="badge badge-danger mr-2">author :</span
+                    ><span id="course-author"> john anderson</span>
+                  </h6>
+                  <!-- end of customer name -->
+                </div>
+              </div>
+
+              <!-- single customer -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap js -->
