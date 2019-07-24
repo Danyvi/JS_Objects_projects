@@ -1,0 +1,9 @@
+:root {
+  --mainPink: #f46197;
+  --mainGreen: #2ca58d;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainPink);
+}
